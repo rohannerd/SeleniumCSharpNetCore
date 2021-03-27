@@ -14,6 +14,7 @@ namespace SeleniumCSharpNetCore
             element.SendKeys(controlvalue);
             var autocomp = driver.FindElement(By.XPath($"//div[@id='{controlname}-dropmenu']/div[2]/ul/li[2]"));
             autocomp.Click();
+            
 
         }
     }
